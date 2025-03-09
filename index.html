@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdullahi Muktar - Full Stack Developer</title>
+    <meta name="description" content="Professional portfolio of Abdullahi, Full Stack Developer specializing in scalable web solutions">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Abdullahi.</a>
+            <div class="nav-links" id="navLinks">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Work</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="nav-controls">
+                <button id="themeToggle" class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Abdullahi</h1>
+                <h2 class="hero-subtitle">Full Stack Developer</h2>
+                <p class="hero-description">Building Scalable Web Solutions</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="cta-btn primary">View Work</a>
+                    <a href="#contact" class="cta-btn secondary">Contact</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-padding">
+        <div class="container">
+            <h2 class="section-title">Technical Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-react skill-icon"></i>
+                    <h3>Frontend Development</h3>
+                    <p>React, TypeScript, Redux, Webpack</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-server skill-icon"></i>
+                    <h3>Backend Systems</h3>
+                    <p>Node.js, Python, REST APIs, Microservices</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database skill-icon"></i>
+                    <h3>Database Design</h3>
+                    <p>PostgreSQL, MongoDB, Redis, Elasticsearch</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects section-padding">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Existing projects... -->
+    
+                <!-- Almadina High School Project -->
+                <article class="project-card">
+                    <div class="project-image" style="background-image: url('images/dsh.jpg')"></div>
+                    <div class="project-content">
+                        <h3>Almadina High School System</h3>
+                        <p>Comprehensive school management platform with AI chatbot integration</p>
+                        <div class="project-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>School Management Modules</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Student & Administration Portal</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Interactive Dashboard</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="cta-btn secondary">Case Study</a>
+                            <a href="#" class="cta-btn primary">Live Demo</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-content">
+                <form action="https://formsubmit.co/your@email.com" method="POST" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-btn primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
